@@ -6,6 +6,7 @@ public class User {
     private String name;
     private String membership;
     private boolean _verified = false;
+
     // Parameterized constructor
     public User(String name, String membership) {
         this.name = name;
